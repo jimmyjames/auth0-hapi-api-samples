@@ -26,7 +26,9 @@ const registerRoutes = () => {
     config: {
       auth: false,
       handler: (req, res) => {
-        res({ message: "Hello from a public endpoint! You don't need to be authenticated to see this." });
+        res({
+          message: "Hello from a public endpoint! You don't need to be authenticated to see this."
+        });
       }
     }
   });
@@ -36,7 +38,9 @@ const registerRoutes = () => {
     path: '/api/private',
     config: {
       handler: (req, res) => {
-        res({ message: "Hello from a private endpoint! You DO need to be authenticated to see this." });
+        res({
+          message: 'Hello from a private endpoint! You DO need to be authenticated to see this.'
+        });
       }
     }
   });
@@ -49,11 +53,13 @@ const registerRoutes = () => {
         scope: 'read:messages'
       },
       handler: (req, res) => {
-        res({ message: "Hello from a private endpoint! You need to be authenticated and have a scope of read:messages to see this." });
+        res({
+          message: 'Hello from a private endpoint! You need to be authenticated and have a scope of read:messages to see this.'
+        });
       }
     }
   });
-}
+};
 
 const validateUser = (decoded, request, callback) => {
   // This is a simple check that the `sub` claim
@@ -64,14 +70,14 @@ const validateUser = (decoded, request, callback) => {
   }
 
   return callback(null, false);
-}
+};
 
 server.register(jwt, err => {
   if (err) throw err;
   server.auth.strategy('jwt', 'jwt', 'required', {
     complete: true,
     // verify the access token against the
-    // remote Auth0 JWKS 
+    // remote Auth0 JWKS
     key: jwksRsa.hapiJwt2Key({
       cache: true,
       rateLimit: true,
@@ -90,5 +96,5 @@ server.register(jwt, err => {
 
 server.start(err => {
   if (err) throw err;
-  console.info(`Server started at ${ server.info.uri }`);
+  console.info(`Server started at ${server.info.uri}`);
 });
