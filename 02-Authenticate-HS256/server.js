@@ -22,6 +22,7 @@ const registerRoutes = () => {
   server.route({
     method: 'GET',
     path: '/api/public',
+    auth: false,
     config: {
       auth: false,
       handler: (req, res) => {
