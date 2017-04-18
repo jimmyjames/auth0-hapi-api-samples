@@ -32,9 +32,6 @@ The sample includes three endpoints:
 * An unprotected endpoint which returns a message on success. Does not require a valid JWT access token.
 
 **GET** /api/private
-* A protected endpoint which returns a message on success. Requires a valid JWT access token.
-
-**GET** /api/private/admin
 * A protected endpoint which returns a message on success. Requires a valid JWT access token containing a `scope` of `read:messages`.
 
 ## What is Auth0?

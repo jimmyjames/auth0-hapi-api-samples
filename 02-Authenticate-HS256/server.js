@@ -35,18 +35,6 @@ const registerRoutes = () => {
 
   server.route({
     method: 'GET',
-    path: '/api/private',
-    config: {
-      handler: (req, res) => {
-        res({
-          message: 'Hello from a private endpoint! You DO need to be authenticated to see this.'
-        });
-      }
-    }
-  });
-
-  server.route({
-    method: 'GET',
     path: '/api/private/admin',
     config: {
       auth: {
