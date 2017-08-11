@@ -54,7 +54,9 @@ const validateUser = (decoded, request, callback) => {
   // exists in the access token. Modify it to suit
   // the needs of your application
   if (decoded && decoded.sub) {
-    return callback(null, true);
+    return callback(null, true,{
+      scope : decoded.scope.split(' ')
+    });
   }
 
   return callback(null, false);
