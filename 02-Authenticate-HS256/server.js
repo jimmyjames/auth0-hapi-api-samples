@@ -22,7 +22,6 @@ const registerRoutes = () => {
   server.route({
     method: 'GET',
     path: '/api/public',
-    auth: false,
     config: {
       auth: false,
       handler: (req, res) => {
@@ -35,7 +34,7 @@ const registerRoutes = () => {
 
   server.route({
     method: 'GET',
-    path: '/api/private/admin',
+    path: '/api/private',
     config: {
       auth: {
         scope: 'read:messages'
@@ -54,7 +53,9 @@ const validateUser = (decoded, request, callback) => {
   // exists in the access token. Modify it to suit
   // the needs of your application
   if (decoded && decoded.sub) {
-    return callback(null, true);
+    return callback(null, true, {
+      scope: decoded.scope.split(' ')
+    });
   }
 
   return callback(null, false);
