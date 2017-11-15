@@ -34,6 +34,14 @@ The sample includes three endpoints:
 **GET** /api/private
 * A protected endpoint which returns a message on success. Requires a valid JWT access token containing a `scope` of `read:messages`.
 
+## Running the Sample With Docker
+
+In order to run the example with docker you need to have `docker` installed.
+
+You also need to set the client credentials as explained [previously](#setup-the-env-file).
+
+Execute in command line `sh exec.sh` to run the Docker in Linux, or `.\exec.ps1` to run the Docker in Windows.
+
 ## What is Auth0?
 
 Auth0 helps you to:
@@ -56,7 +64,7 @@ If you have found a bug or if you have a feature request, please report them at 
 
 ## Author
 
-[Auth0](auth0.com)
+[Auth0](https://auth0.com)
 
 ## License
 
