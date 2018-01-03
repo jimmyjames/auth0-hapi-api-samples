@@ -10,7 +10,7 @@ require('dotenv').config();
 const server = new Hapi.Server();
 
 server.connection({
-  port: process.env.PORT || 3001,
+  port: process.env.PORT || 3010,
   routes: {
     cors: {
       // change this for production
@@ -53,7 +53,7 @@ const validateUser = (decoded, request, callback) => {
   // This is a simple check that the `sub` claim
   // exists in the access token. Modify it to suit
   // the needs of your application
-  if (decoded && decoded.sub) {
+  if (decoded && decoded.sub && decoded.scope) {
     return callback(null, true, {
       scope: decoded.scope.split(' ')
     });
