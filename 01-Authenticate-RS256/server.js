@@ -37,6 +37,19 @@ const registerRoutes = () => {
     method: 'GET',
     path: '/api/private',
     config: {
+      auth: 'jwt',
+      handler: (req, res) => {
+        res({
+          message: 'Hello from a private endpoint! You need to be authenticated to see this.'
+        });
+      }
+    }
+  });
+
+  server.route({
+    method: 'GET',
+    path: '/api/private-scoped',
+    config: {
       auth: {
         scope: 'read:messages'
       },
@@ -53,10 +66,13 @@ const validateUser = (decoded, request, callback) => {
   // This is a simple check that the `sub` claim
   // exists in the access token. Modify it to suit
   // the needs of your application
-  if (decoded && decoded.sub && decoded.scope) {
-    return callback(null, true, {
-      scope: decoded.scope.split(' ')
-    });
+  if (decoded && decoded.sub) {
+    if (decoded.scope)
+      return callback(null, true, {
+        scope: decoded.scope.split(' ')
+      });
+
+    return callback(null, true);
   }
 
   return callback(null, false);
