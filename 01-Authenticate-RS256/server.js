@@ -102,5 +102,5 @@ server.register(jwt, err => {
 
 server.start(err => {
   if (err) throw err;
-  console.info(`Server started at http://localhost:3010`);
+  console.info(`Server started at ${server.info.uri}`);
 });
