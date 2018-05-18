@@ -1,8 +1,6 @@
 'use strict';
 
 const Hapi = require('hapi');
-const Boom = require('boom');
-const Joi = require('joi');
 const jwt = require('hapi-auth-jwt2');
 const jwksRsa = require('jwks-rsa');
 require('dotenv').config();
@@ -14,7 +12,7 @@ server.connection({
   routes: {
     cors: {
       // change this for production
-      origin: ['*']
+      origin: ['http://localhost:3000']
     }
   }
 });
