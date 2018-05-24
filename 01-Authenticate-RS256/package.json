@@ -18,11 +18,9 @@
   },
   "homepage": "https://github.com/auth0-samples/auth0-hapi-api-samples#readme",
   "dependencies": {
-    "boom": "^4.2.0",
     "dotenv": "^4.0.0",
     "hapi": "^16.1.0",
     "hapi-auth-jwt2": "^7.2.4",
-    "joi": "^10.2.0",
     "jwks-rsa": "^1.1.1"
   }
 }
