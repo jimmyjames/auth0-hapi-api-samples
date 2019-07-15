@@ -1,0 +1,23 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "benlizar",
+      "name": "Benjamin Lizardo",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/36707032?v=4",
+      "profile": "https://github.com/benlizar",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "auth0-hapi-api-samples",
+  "projectOwner": "auth0-community",
+  "repoType": "github",
+  "repoHost": "https://github.com"
+}
