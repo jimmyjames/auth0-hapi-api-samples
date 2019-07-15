@@ -3,7 +3,7 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 <img src="https://img.shields.io/badge/community-driven-brightgreen.svg"/> <br>
 
-### Contributors ✨
+### Contributors
 
 Thanks goes to these wonderful people who contribute and maintain this repo ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
@@ -16,6 +16,8 @@ Thanks goes to these wonderful people who contribute and maintain this repo ([em
 </table>
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
+
+### Intro
 
 These samples demonstrate how to create an API with Hapi.js which authenticates incoming requests. The request authenitcation is done by verifying the signature and claims in a JSON Web Token (JWT) signed by Auth0.
 
