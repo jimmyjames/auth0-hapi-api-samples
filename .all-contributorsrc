@@ -13,6 +13,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "rafanog",
+      "name": "Rafael Noguera",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/15782359?v=4",
+      "profile": "https://rafael-noguera.com.ve",
+      "contributions": [
+        "code",
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
