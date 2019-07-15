@@ -23,6 +23,16 @@
         "code",
         "bug"
       ]
+    },
+    {
+      "login": "alexisluque",
+      "name": "Alexis Luque",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/30907012?v=4",
+      "profile": "https://github.com/alexisluque",
+      "contributions": [
+        "code",
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
