@@ -1,6 +1,6 @@
 # Auth0 Hapi API Samples
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
 <img src="https://img.shields.io/badge/community-driven-brightgreen.svg"/> <br>
 
 ### Contributors
@@ -12,6 +12,7 @@ Thanks goes to these wonderful people who contribute and maintain this repo ([em
 <table>
   <tr>
     <td align="center"><a href="https://github.com/benlizar"><img src="https://avatars1.githubusercontent.com/u/36707032?v=4" width="100px;" alt="Benjamin Lizardo"/><br /><sub><b>Benjamin Lizardo</b></sub></a><br /><a href="https://github.com/auth0-community/auth0-hapi-api-samples/commits?author=benlizar" title="Code">💻</a></td>
+    <td align="center"><a href="https://rafael-noguera.com.ve"><img src="https://avatars2.githubusercontent.com/u/15782359?v=4" width="100px;" alt="Rafael Noguera"/><br /><sub><b>Rafael Noguera</b></sub></a><br /><a href="https://github.com/auth0-community/auth0-hapi-api-samples/commits?author=rafanog" title="Code">💻</a> <a href="https://github.com/auth0-community/auth0-hapi-api-samples/issues?q=author%3Arafanog" title="Bug reports">🐛</a></td>
   </tr>
 </table>
 
