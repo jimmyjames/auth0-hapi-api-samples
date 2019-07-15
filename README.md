@@ -20,7 +20,7 @@ Thanks goes to these wonderful people who contribute or maintain this repo ([emo
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-### Intro
+## Intro
 
 These samples demonstrate how to create an API with Hapi.js which authenticates incoming requests. The request authenitcation is done by verifying the signature and claims in a JSON Web Token (JWT) signed by Auth0.
 
@@ -28,19 +28,19 @@ These samples do not demonstrate how to sign a JWT but rather assume that a user
 
 This repo is supported and maintained by Community Developers, not Auth0. For more information about different support levels check https://auth0.com/docs/support/matrix .
 
-### Contribute
+## Contribute
 
 Feel like contributing to this repo? We're glad to hear that! Before you start contributing please visit our [Contributing Guideline](https://github.com/auth0-community/getting-started/blob/master/CONTRIBUTION.md).
 
 Here you can also find the [PR template](https://github.com/auth0-community/auth0-hapi-api-samples/blob/master/PULL_REQUEST_TEMPLATE.md) to fill once creating a PR. It will automatically appear once you open a pull request.
 
-### Issues Reporting
+## Issues Reporting
 
 Spotted a bug or any other kind of issue? We're just humans and we're always waiting for constructive feedback! Check our section on how to [report issues](https://github.com/auth0-community/getting-started/blob/master/CONTRIBUTION.md#issues)!
 
 Here you can also find the [Issue template](https://github.com/auth0-community/auth0-hapi-api-samples/blob/master/ISSUE_TEMPLATE.md) to fill once opening a new issue. It will automatically appear once you create an issue.
 
-### Repo Community
+## Repo Community
 
 Feel like PRs and issues are not enough? Want to dive into further discussion about the tool? We created topics for each Auth0 Community repo so that you can join discussion on stack available on our repos. Here it is for this one: [auth0-hapi-api-samples](https://community.auth0.com/t/auth0-community-oss-auth0-hapi-api-samples/15975)
 
@@ -48,11 +48,11 @@ Feel like PRs and issues are not enough? Want to dive into further discussion ab
 <img src="/Assets/join_auth0_community_badge.png"/>
 </a>
 
-### License
+## License
 
 This project is licensed under the MIT license. See the [LICENSE](https://github.com/auth0-community/auth0-hapi-api-samples/blob/master/LICENSE) file for more info.
 
-### What is Auth0?
+## What is Auth0?
 
 Auth0 helps you to:
 
@@ -80,7 +80,7 @@ Auth0 helps you to:
 * Analytics of how, when and where users are logging in
 * Pull data from other sources and add it to user profile, through [JavaScript rules](https://docs.auth0.com/rules)
 
-### Create a free Auth0 account
+## Create a free Auth0 account
 
 * Go to [Auth0 website](https://auth0.com/signup)
 * Hit the **SIGN UP** button in the upper-right corner
