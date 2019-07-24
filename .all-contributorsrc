@@ -1,0 +1,53 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "benlizar",
+      "name": "Benjamin Lizardo",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/36707032?v=4",
+      "profile": "https://github.com/benlizar",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "rafanog",
+      "name": "Rafael Noguera",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/15782359?v=4",
+      "profile": "https://rafael-noguera.com.ve",
+      "contributions": [
+        "code",
+        "bug"
+      ]
+    },
+    {
+      "login": "alexisluque",
+      "name": "Alexis Luque",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/30907012?v=4",
+      "profile": "https://github.com/alexisluque",
+      "contributions": [
+        "code",
+        "bug"
+      ]
+    },
+    {
+      "login": "beardaway",
+      "name": "Conrad Sopala",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/11062800?v=4",
+      "profile": "https://twitter.com/beardaway",
+      "contributions": [
+        "maintenance",
+        "review"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "auth0-hapi-api-samples",
+  "projectOwner": "auth0-community",
+  "repoType": "github",
+  "repoHost": "https://github.com"
+}
