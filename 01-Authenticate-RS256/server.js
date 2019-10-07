@@ -82,7 +82,7 @@ server.register(jwt, err => {
     complete: true,
     // verify the access token against the
     // remote Auth0 JWKS
-    key: jwksRsa.hapiJwt2Key({
+    key: jwksRsa.hapiJwt2KeyAsync({
       cache: true,
       rateLimit: true,
       jwksRequestsPerMinute: 5,
@@ -93,7 +93,7 @@ server.register(jwt, err => {
       issuer: `https://${process.env.AUTH0_DOMAIN}/`,
       algorithms: ['RS256']
     },
-    validateFunc: validateUser
+    validate: validateUser
   });
   registerRoutes();
 });
